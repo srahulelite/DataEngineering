@@ -5,6 +5,10 @@
 -- Table structure for table departments
 --
 
+
+-- Need to configure user account from Super Users in postgres before running this
+
+
 CREATE TABLE departments (
   department_id INT NOT NULL,
   department_name VARCHAR(45) NOT NULL,
