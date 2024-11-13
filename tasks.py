@@ -43,3 +43,33 @@
 # Display results in a clean format or export to a CSV.
 # Difficulty: Medium to Hard
 # Let me know if one of these resonates with you, or if you’d like a few adjustments. We’ll take it step-by-step, reinforcing your Python skills as we go.
+
+
+#HINTS
+# 3. Mini ETL Pipeline Simulation
+# Data Source: Use synthetic JSON data representing users. You can:
+# Create JSON files manually, or use Mockaroo to generate JSON with fields like name, age, purchase_history.
+# Generate sample JSON data in Python:
+# python
+# Copy code
+# import json
+# sample_data = [{"name": "Alice", "age": 30, "purchase_history": ["item1", "item2"]}]
+# with open("sample_data.json", "w") as f:
+#     json.dump(sample_data, f)
+
+# 4. Weather Data Analysis (API)
+# Data Source: Use the OpenWeatherMap API, which offers free access with a sign-up.
+# Register to get an API key, then use Python’s requests module to pull data.
+# Example Endpoint: http://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY
+# Alternative: If you can’t access an API, create a small sample JSON file with similar data fields (temperature, humidity, wind_speed) for offline testing.
+
+# 5. Data Aggregator for Survey Responses
+# Data Source: Create a JSON or CSV file with survey responses. Fields might include name, age, gender, response1, response2, etc.
+# Sample JSON:
+# json
+# Copy code
+# [
+#   {"name": "Alice", "age": 29, "gender": "F", "response1": "Yes", "response2": "No"},
+#   {"name": "Bob", "age": 35, "gender": "M", "response1": "No", "response2": "Yes"}
+# ]
+# Or, Mockaroo: Generate custom survey responses in CSV or JSON format.
