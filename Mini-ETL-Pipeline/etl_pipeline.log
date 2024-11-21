@@ -1,0 +1,6 @@
+2024-11-22 01:49:37,406 - INFO - ETL pipeline started.
+2024-11-22 01:49:37,421 - INFO - Data extraction succesful.
+2024-11-22 01:49:37,421 - INFO - Backup created: backups/MOCK_DATA.json_20241122_014937
+2024-11-22 01:49:37,421 - INFO - Data transformation successful.
+2024-11-22 01:49:37,437 - INFO - Data succesfully loaded to output/transformed_data.csv
+2024-11-22 01:49:37,437 - INFO - ETL pipeline completed successfully.
